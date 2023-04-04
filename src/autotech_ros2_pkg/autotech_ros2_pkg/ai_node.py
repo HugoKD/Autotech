@@ -79,7 +79,6 @@ class AI(Node):
         self.cmd_car.publish(order_angular)
         self.get_logger().info("Model predict: {}".format(str(action))
     
-    
     def publish(self):
         self.cmd_vel_publisher(
             self.OutToPublish(
