@@ -1,0 +1,202 @@
+[0.512s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.512s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f56c41e4fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f56c41e4a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f56c41e4a60>>)
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.571s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vasa/Documents/INTech/Covaps_ws'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/covaps) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/covaps' with type 'ros.ament_cmake' and name 'covaps'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/monthlery) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/monthlery' with type 'ros.ament_python' and name 'monthlery'
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.633s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/vasa/Bureau/Workspace/Autotech/install
+[0.636s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 52 installed packages in /home/vasa/Bureau/Workspace/ros2_ws/install
+[0.638s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'covaps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'covaps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vasa/Documents/INTech/Covaps_ws/build/covaps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vasa/Documents/INTech/Covaps_ws/install/covaps', 'merge_install': False, 'path': '/home/vasa/Documents/INTech/Covaps_ws/src/covaps', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'ament_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'catkin_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'monthlery' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'monthlery' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vasa/Documents/INTech/Covaps_ws/build/monthlery', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery', 'merge_install': False, 'path': '/home/vasa/Documents/INTech/Covaps_ws/src/monthlery', 'symlink_install': False, 'test_result_base': None}
+[0.786s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vasa/Documents/INTech/Covaps_ws/src/covaps' with build type 'ament_cmake'
+[0.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vasa/Documents/INTech/Covaps_ws/src/covaps'
+[0.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake /home/vasa/Documents/INTech/Covaps_ws/src/covaps -DCMAKE_INSTALL_PREFIX=/home/vasa/Documents/INTech/Covaps_ws/install/covaps
+[3.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake /home/vasa/Documents/INTech/Covaps_ws/src/covaps -DCMAKE_INSTALL_PREFIX=/home/vasa/Documents/INTech/Covaps_ws/install/covaps
+[3.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake --build /home/vasa/Documents/INTech/Covaps_ws/build/covaps -- -j8 -l8
+[6.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake --build /home/vasa/Documents/INTech/Covaps_ws/build/covaps -- -j8 -l8
+[6.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake --install /home/vasa/Documents/INTech/Covaps_ws/build/covaps
+[6.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(covaps)
+[6.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vasa/Documents/INTech/Covaps_ws/build/covaps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_teleop:/home/vasa/Bureau/Workspace/ros2_ws/install/turtlebot3_example:/home/vasa/Bureau/Workspace/ros2_ws/install/nav2_simple_commander:/home/vasa/Bureau/Workspace/ros2_ws/install/my_robot_test:/home/vasa/Bureau/Workspace/ros2_ws/install/monthlery:/opt/ros/humble /usr/bin/cmake --install /home/vasa/Documents/INTech/Covaps_ws/build/covaps
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps' for CMake module files
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps' for CMake config files
+[6.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('covaps', 'cmake_prefix_path')
+[6.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.ps1'
+[6.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.dsv'
+[6.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.sh'
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib'
+[6.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('covaps', 'ld_library_path_lib')
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.ps1'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.dsv'
+[6.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.sh'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/bin'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib/pkgconfig/covaps.pc'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib/python3.10/site-packages'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/bin'
+[6.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.ps1'
+[6.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.dsv'
+[6.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.sh'
+[6.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.bash'
+[6.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.zsh'
+[6.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/colcon-core/packages/covaps)
+[7.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(covaps)
+[7.129s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps' for CMake module files
+[7.130s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps' for CMake config files
+[7.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('covaps', 'cmake_prefix_path')
+[7.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.ps1'
+[7.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.dsv'
+[7.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/cmake_prefix_path.sh'
+[7.136s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib'
+[7.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('covaps', 'ld_library_path_lib')
+[7.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.ps1'
+[7.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.dsv'
+[7.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/hook/ld_library_path_lib.sh'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/bin'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib/pkgconfig/covaps.pc'
+[7.140s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib/python3.10/site-packages'
+[7.140s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/bin'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.ps1'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.dsv'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.sh'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.bash'
+[7.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/covaps/package.zsh'
+[7.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vasa/Documents/INTech/Covaps_ws/install/covaps/share/colcon-core/packages/covaps)
+[7.146s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vasa/Documents/INTech/Covaps_ws/src/monthlery' with build type 'ament_python'
+[7.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('monthlery', 'ament_prefix_path')
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/ament_prefix_path.ps1'
+[7.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/ament_prefix_path.dsv'
+[7.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/ament_prefix_path.sh'
+[7.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.563s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vasa/Documents/INTech/Covaps_ws/src/monthlery'
+[7.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vasa/Documents/INTech/Covaps_ws/src/monthlery': AMENT_PREFIX_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasa/Documents/INTech/Covaps_ws/build/monthlery/prefix_override:/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/lib/python3.10/site-packages:/home/vasa/Documents/INTech/Covaps_ws/install/covaps/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monthlery build --build-base /home/vasa/Documents/INTech/Covaps_ws/build/monthlery/build install --record /home/vasa/Documents/INTech/Covaps_ws/build/monthlery/install.log --single-version-externally-managed
+[8.562s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery' for CMake module files
+[8.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vasa/Documents/INTech/Covaps_ws/src/monthlery' returned '0': AMENT_PREFIX_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vasa/Documents/INTech/Covaps_ws/install/covaps/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasa/Documents/INTech/Covaps_ws/build/monthlery/prefix_override:/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/lib/python3.10/site-packages:/home/vasa/Documents/INTech/Covaps_ws/install/covaps/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monthlery build --build-base /home/vasa/Documents/INTech/Covaps_ws/build/monthlery/build install --record /home/vasa/Documents/INTech/Covaps_ws/build/monthlery/install.log --single-version-externally-managed
+[8.563s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery' for CMake config files
+[8.564s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/lib'
+[8.564s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/bin'
+[8.564s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/lib/pkgconfig/monthlery.pc'
+[8.564s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/lib/python3.10/site-packages'
+[8.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('monthlery', 'pythonpath')
+[8.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/pythonpath.ps1'
+[8.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/pythonpath.dsv'
+[8.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/hook/pythonpath.sh'
+[8.567s] Level 1:colcon.colcon_core.environment:checking '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/bin'
+[8.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(monthlery)
+[8.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/package.ps1'
+[8.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/package.dsv'
+[8.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/package.sh'
+[8.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/package.bash'
+[8.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/monthlery/package.zsh'
+[8.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vasa/Documents/INTech/Covaps_ws/install/monthlery/share/colcon-core/packages/monthlery)
+[8.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.571s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.579s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.579s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.580s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.602s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.604s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vasa/Documents/INTech/Covaps_ws/install/local_setup.ps1'
+[8.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vasa/Documents/INTech/Covaps_ws/install/_local_setup_util_ps1.py'
+[8.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vasa/Documents/INTech/Covaps_ws/install/setup.ps1'
+[8.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vasa/Documents/INTech/Covaps_ws/install/local_setup.sh'
+[8.615s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vasa/Documents/INTech/Covaps_ws/install/_local_setup_util_sh.py'
+[8.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vasa/Documents/INTech/Covaps_ws/install/setup.sh'
+[8.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vasa/Documents/INTech/Covaps_ws/install/local_setup.bash'
+[8.622s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vasa/Documents/INTech/Covaps_ws/install/setup.bash'
+[8.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vasa/Documents/INTech/Covaps_ws/install/local_setup.zsh'
+[8.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vasa/Documents/INTech/Covaps_ws/install/setup.zsh'
