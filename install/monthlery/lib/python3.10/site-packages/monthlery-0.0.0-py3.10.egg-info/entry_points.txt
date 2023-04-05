@@ -1,4 +1,0 @@
-[console_scripts]
-com_node = monthlery.com:main
-teleop_node = monthlery.teleop:main
-

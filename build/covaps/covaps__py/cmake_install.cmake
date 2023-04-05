@@ -1,8 +1,8 @@
-# Install script for directory: /home/vasa/Documents/INTech/Covaps_ws/build/covaps/covaps__py
+# Install script for directory: /home/aurelien/Covaps_ws/build/covaps/covaps__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vasa/Documents/INTech/Covaps_ws/install/covaps")
+  set(CMAKE_INSTALL_PREFIX "/home/aurelien/Covaps_ws/install/covaps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vasa/Documents/INTech/Covaps_ws/src/covaps
+CMAKE_SOURCE_DIR = /home/aurelien/Covaps_ws/src/covaps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vasa/Documents/INTech/Covaps_ws/build/covaps
+CMAKE_BINARY_DIR = /home/aurelien/Covaps_ws/build/covaps
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vasa/Documents/INTech/Covaps_ws/build/covaps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vasa/Documents/INTech/Covaps_ws/src/covaps /home/vasa/Documents/INTech/Covaps_ws/src/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aurelien/Covaps_ws/build/covaps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/Covaps_ws/src/covaps /home/aurelien/Covaps_ws/src/covaps /home/aurelien/Covaps_ws/build/covaps /home/aurelien/Covaps_ws/build/covaps /home/aurelien/Covaps_ws/build/covaps/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

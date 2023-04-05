@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vasa/Documents/INTech/Covaps_ws/src/covaps
+CMAKE_SOURCE_DIR = /home/aurelien/Covaps_ws/src/covaps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vasa/Documents/INTech/Covaps_ws/build/covaps
+CMAKE_BINARY_DIR = /home/aurelien/Covaps_ws/build/covaps
 
 # Utility rule file for covaps.
 
@@ -66,7 +66,7 @@ include CMakeFiles/covaps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/covaps.dir/progress.make
 
-CMakeFiles/covaps: /home/vasa/Documents/INTech/Covaps_ws/src/covaps/msg/Order.msg
+CMakeFiles/covaps: /home/aurelien/Covaps_ws/src/covaps/msg/Order.msg
 
 covaps: CMakeFiles/covaps
 covaps: CMakeFiles/covaps.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/covaps.dir/clean:
 .PHONY : CMakeFiles/covaps.dir/clean
 
 CMakeFiles/covaps.dir/depend:
-	cd /home/vasa/Documents/INTech/Covaps_ws/build/covaps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vasa/Documents/INTech/Covaps_ws/src/covaps /home/vasa/Documents/INTech/Covaps_ws/src/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps /home/vasa/Documents/INTech/Covaps_ws/build/covaps/CMakeFiles/covaps.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aurelien/Covaps_ws/build/covaps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/Covaps_ws/src/covaps /home/aurelien/Covaps_ws/src/covaps /home/aurelien/Covaps_ws/build/covaps /home/aurelien/Covaps_ws/build/covaps /home/aurelien/Covaps_ws/build/covaps/CMakeFiles/covaps.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/covaps.dir/depend
 
