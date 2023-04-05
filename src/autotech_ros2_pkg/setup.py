@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ai_node = autotech_ros2_pkg.ai_node:main'
         ],
     },
 )

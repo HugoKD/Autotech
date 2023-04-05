@@ -19,7 +19,7 @@ models_path = "~/ros2_ws/src/monthlery/modele/Modèles finaux/"
 model_name = "bien2/model"
 
 class AI(Node):
-    number_laser_points = 1080
+    number_laser_points = 1081
     model = PPO.load(models_path + model_name)#mettre le nom du dossier qui contient le modèle
 
     def __init__(self,**kargs):
@@ -64,14 +64,10 @@ class AINode(AI):
     def __init__(self, **kargs):
         super().__init__(**kargs)
 
-        # Subscriber
-        self.obs_subscriber = self.create_subscription(
-            Float64MultiArray, "obs/topic/array", self.callback_pub,10
-        )
         # Publisher
         self.cmd_car = self.create_publisher(Order, "/monthlery/cmd_car", 10)
         # End initialize
-        self.get_logger().info("AI test node has been started")
+        self.get_logger().info("AI node has been started")
 
 
     def callback_pub(self, array : Float64MultiArray):
@@ -92,7 +88,7 @@ class AINode(AI):
         self.get_logger().info("Model predict: {}".format(str(action)))
 
 
-    def angle_opening(self, obs, theta):
+    def angle_opening(self, obs, theta, number_points=17):
         ''' Return the point that are in the opening angle in the direction of the car
         PARAMETERS
         ----------
@@ -100,10 +96,10 @@ class AINode(AI):
                 Angle in degree
         '''
         angle_by_point = 360 / self.number_laser_points
-        opening_index_0 = (180 - theta/2) / angle_by_point
-        opening_index_1 = (180 - theta/2) / angle_by_point
-
-        return obs[opening_index_0:opening_index_1]
+        opening_index_0 = int((180 - theta/2) / angle_by_point)
+        opening_index_1 = int((180 + theta/2) / angle_by_point)
+        step = (opening_index_1 - opening_index_0)//number_points
+        return obs[opening_index_0:opening_index_1:step]
 
 
 ##
