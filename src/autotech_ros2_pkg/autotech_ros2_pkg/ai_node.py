@@ -86,9 +86,8 @@ class AINode(AI):
         self.cmd_car.publish(order_linear)
         
         self.get_logger().info("Model predict: {}".format(str(action)))
-
-
-    def angle_opening(self, obs, theta, number_points=17):
+    
+    def angle_opening(self, obs, theta=45, number_points=17):
         ''' Return the point that are in the opening angle in the direction of the car
         PARAMETERS
         ----------
@@ -96,11 +95,23 @@ class AINode(AI):
                 Angle in degree
         '''
         angle_by_point = 360 / self.number_laser_points
-        opening_index_0 = int((180 - theta/2) / angle_by_point)
-        opening_index_1 = int((180 + theta/2) / angle_by_point)
+        opening_index_0 = int((180 - theta) / angle_by_point)
+        opening_index_1 = int((180 + theta) / angle_by_point)
+        add_coast = True #True for index_0 and so False for index_1
+        # Add points and so enlarged the opening angle until we got a suitable number of points
+        while not (opening_index_1 - opening_index_0) % number_points == 0:
+            if add_coast:
+                opening_index_0-=1
+            else:
+                opening_index_1+=1
+            add_coast = not add_coast
         step = (opening_index_1 - opening_index_0)//number_points
-        return obs[opening_index_0:opening_index_1:step]
 
+        return obs[opening_index_0 : opening_index_1 : step]
+    
+
+                
+        
 
 ##
 #%%
@@ -139,3 +150,5 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
+
+# %%
