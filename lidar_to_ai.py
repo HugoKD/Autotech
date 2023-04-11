@@ -21,7 +21,7 @@ class LaserScanToOdom(Node):
         '''try:
             # get the transform from the laser scanner frame to the odom frame
             transform = self.tf_buffer.lookup_transform('odom', scan_msg.header.frame_id, scan_msg.header.stamp, rospy.Duration(1.0))
-        except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException):
+            except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException):
             return'''
 
         ''' # create a pose message with the position of the laser scanner in the odom frame
